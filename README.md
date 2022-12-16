@@ -52,7 +52,7 @@ Django 웹 프레임워크와 HTML/CSS/JavaScript를 사용한 커뮤니티 웹 
 ![erd.png](readme.assets/erd.png)
 
 <aside>
-☃️ Places App
+#### ☃️ Places App
 
 </aside>
 
@@ -65,7 +65,7 @@ Django 웹 프레임워크와 HTML/CSS/JavaScript를 사용한 커뮤니티 웹 
 - 스키장 위치 카카오map 연동 : 스키장에 대한 다양한 정보와 스키장의 위치정보 확인이 가능한 카카오 map 기능을 사용했습니다.
 
 <aside>
-☃️ Reviews App
+#### ☃️ Reviews App
 
 </aside>
 
@@ -76,7 +76,7 @@ Django 웹 프레임워크와 HTML/CSS/JavaScript를 사용한 커뮤니티 웹 
 - 후기 ‘좋아요’ 기능 : 작성한 후기에 좋아요 기능을 추가했습니다.
 
 <aside>
-☃️ Accounts App
+#### ☃️ Accounts App
 
 </aside>
 
