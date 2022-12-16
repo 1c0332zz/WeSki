@@ -17,11 +17,16 @@ from django.contrib import admin
 from django.urls import path, include,re_path
 from django.conf import settings
 from django.conf.urls.static import static
+# 카카오
+# from django.urls import re_path as url
+
+
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('accounts.urls')),
     path('', include('places.urls')),
-    #re_path(r'reviews/',include('reviews.urls')),
-    path("reviews/",include('reviews.urls')),
+    re_path(r'reviews/',include('reviews.urls')),
+    #path("reviews/",include('reviews.urls')),   
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
