@@ -8,7 +8,7 @@
 
 </aside>
 
-![weski_main_01.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67878bd7-9816-487a-bc3e-d87ceaedd008/weski_main_01.png)
+![weski_main_01.png](readme.assets/weski_main_01.png)
 
 ![weski_main_02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1bd75e69-74b8-49b4-a070-a8195dbc3604/weski_main_02.png)
 
