@@ -177,3 +177,28 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = "accounts.User"
 
 SECURE_CROSS_ORIGIN_OPENER_POLICY = None
+
+# 카카오
+LOGIN_REDIRECT_URL = 'index' # 로그인 후 리디렉션할 페이지
+ACCOUNT_LOGOUT_REDIRECT_URL = "index"  # 로그아웃 후 리디렉션 할 페이지
+ACCOUNT_LOGOUT_ON_GET = True # 로그아웃 버튼 클릭 시 자동 로그아웃
+
+# 카카오 로그인
+# Provider specific settings
+SOCIALACCOUNT_PROVIDERS = {
+    'kakao': {
+        # For each OAuth based provider, either add a ``SocialApp``
+        # (``socialaccount`` app) containing the required client
+        # credentials, or list them here:
+        'APP': {
+            'client_id': '729b29b97aeb12c9887dc5f71f9a5fc7',
+            'secret': '',
+            'key': ''
+        }
+    }
+}
+
+# 카카오
+ACCOUNT_DEFAULT_HTTP_PROTOCOL = "https"
+
+

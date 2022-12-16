@@ -346,6 +346,59 @@
           </div>
         </div>
 
+              $('#myPay').click(function () {
+                if (($('#myPayResult').css("display") === "none") && ($('#myReviewResult').css("display") === "none") && ($('#myReservationResult').css("display") === "none")) {
+                  $('#myReviewResult').hide();
+                  $('#myReservationResult').hide();
+                  $('#myPayResult').show();
+                  $('#myReviewResult').hide();
+                  console.log('myPay1')
+                } else if (($('#myPayResult').css("display") === "none") && ($('#myReviewResult').css("display") !== "none") && ($('#myReservationResult').css("display") === "none")) {
+                  $('#myReviewResult').hide();
+                  $('#myReservationResult').hide();
+                  $('#myPayResult').show();
+                  console.log('myPay2')
+                } else if (($('#myPayResult').css("display") === "none") && ($('#myReviewResult').css("display") === "none") && ($('#myReservationResult').css("display") !== "none")) {
+                  $('#myReviewResult').hide();
+                  $('#myReservationResult').hide();
+                  $('#myPayResult').show();
+                  console.log('myPay3')
+                } else if (($('#myPayResult').css("display") === "none") && ($('#myReviewResult').css("display") === "none") && ($('#myReservationResult').css("display") !== "none")) {
+                  $('#myReviewResult').hide();
+                  $('#myReservationResult').hide();
+                  $('#myPayResult').show();
+                  console.log('myPay4')
+                } else {
+                  if ($('#myPayResult').css("display") !== "none") {
+                    $('#myPayResult').hide();
+                    console.log('myPay5')
+                  } else {
+                    $('#myPayResult').show();
+                    $('#myReviewResult').hide();
+                    console.log('myPay6')
+                  }
+                }
+              });
+
+              // 알림 기능
+              const btn = document.querySelector('button');
+              btn.addEventListener('click', notify);
+
+              function notify() {
+                switch (Notification.permission) {
+                  case 'default':
+                    Notification.requestPermission();
+                    break;
+                  case 'granted':
+                    new Notification('안녕하세요');
+                    break;
+                  case 'denied':
+                    alert('알림 Off');
+                    break;
+                }
+              }
+            </script>
+          {% endblock script %}
         <script></script>
 
       {% endblock content %}
