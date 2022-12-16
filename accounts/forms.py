@@ -5,7 +5,11 @@ from django.contrib.auth import get_user_model
 class SignupForm(UserCreationForm):
     class Meta:
         model = get_user_model()
-        fields = ("username", "email") 
+        fields = (
+            "username", 
+            "email", 
+            "image",
+            ) 
 
 
 
@@ -14,4 +18,8 @@ class ChangeUserForm(UserChangeForm):
 
         class Meta:
             model = get_user_model()
-            fields = ("image", "email")
+            fields = (
+                "username", 
+                "image", 
+                "email",
+                )
