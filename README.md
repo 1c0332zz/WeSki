@@ -51,10 +51,8 @@ Django 웹 프레임워크와 HTML/CSS/JavaScript를 사용한 커뮤니티 웹 
 
 ![erd.png](readme.assets/erd.png)
 
-<aside>
-#### ☃️ Places App
 
-</aside>
+#### ☃️ Places App
 
 ![weski_main_01.png](readme.assets/weski_main_01.png)
 
@@ -64,10 +62,8 @@ Django 웹 프레임워크와 HTML/CSS/JavaScript를 사용한 커뮤니티 웹 
 - 스키장 정보 CRUD : 스키장의 상호명, 주소, 설명, 사진 등을 작성하고 작성한 글을 읽을 수 있습니다. 그리고 글을 수정하고 삭제할 수 있는 기능을 추가했습니다.
 - 스키장 위치 카카오map 연동 : 스키장에 대한 다양한 정보와 스키장의 위치정보 확인이 가능한 카카오 map 기능을 사용했습니다.
 
-<aside>
-#### ☃️ Reviews App
 
-</aside>
+#### ☃️ Reviews App
 
 ![weski_review.png](readme.assets/weski_review.png)
 
@@ -75,10 +71,7 @@ Django 웹 프레임워크와 HTML/CSS/JavaScript를 사용한 커뮤니티 웹 
 - 후기 CRUD : 리뷰 제목, 본문, 별점, 스키장에 대하여 작성하고 작성한 후기를 읽을 수 있습니다. 또한, 후기를 수정하고 삭제할 수 있는 기능을 구현했습니다. 또한 다중 이미지를 업로드 할 수 있도록 했습니다.
 - 후기 ‘좋아요’ 기능 : 작성한 후기에 좋아요 기능을 추가했습니다.
 
-<aside>
 #### ☃️ Accounts App
-
-</aside>
 
 ![weski_signup_for.png](readme.assets/weski_signup_for.png)
 
